@@ -1,0 +1,12 @@
+.stepnavbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  border-radius: 10px;
+  background: #37f;
+  width: 10.625rem;
+  height: 4.375rem;
+}
+

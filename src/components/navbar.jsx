@@ -37,13 +37,8 @@ const Navbar = () => {
     setIsOpen(false);
   };
   
-  const handleMenuItemClick = (page) => {
-    closeDropdown();
-    history.push(page);
-  };
-
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-info ">
       <div className="navbar-start">
       <div className="dropdown">
       <label tabIndex={0} className={`btn btn-circle swap swap-rotate ${isOpen ? 'open' : ''}`} onClick={toggleDropdown}>
@@ -88,7 +83,7 @@ const Navbar = () => {
     </div>
       </div>
       <div className="navbar-center">
-        <a className="btn btn-ghost normal-case text-xl">Application Form</a>
+        <a className="btn btn-ghost normal-case text-2xl text-primary">Application Form</a>
       </div>
       <div className="navbar-end">
         <div className="dropdown dropdown-end">

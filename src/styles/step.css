@@ -1,0 +1,26 @@
+.stepwise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+#steps {
+  width: 80vw;
+}
+.box1 {
+  width: 10vw;
+  height: 9vh;
+  border-radius: 10px;
+  background: #37f;
+  padding-top: 1vh;
+}
+.content {
+  color: #fff;
+  text-align: center;
+
+  /* Heading 4 14px */
+  font-size: 0.875rem;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 130%;
+}

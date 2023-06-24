@@ -7,6 +7,8 @@ import Signup from "./pages/Signup"
 import Footer from "./components/footer";
 import Step2 from "./pages/Step2"
 import Step3 from "./pages/Step3"
+import Step4 from "./pages/Step4"
+
 import { BrowserRouter, Router, Route, Routes } from 'react-router-dom'
 
 export default function App() {
@@ -23,6 +25,7 @@ export default function App() {
         <Route path="/signup" element={<Signup/>} />
         <Route path="/step2" element={<Step2/>}/>
         <Route path="/step3" element={<Step3/>}/>
+        <Route path="/step4" element={<Step4/>}/>
         </Routes>
     </BrowserRouter>
     <Footer/>

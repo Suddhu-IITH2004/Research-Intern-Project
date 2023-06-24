@@ -1,0 +1,27 @@
+.adds3 {
+  margin-left: 50vw;
+  display: flex;
+}
+#pas3 {
+  height: 20vh;
+  width: 63vw;
+}
+#s3box2 {
+  height: 20vh;
+}
+#dragdrop {
+  width: 63vw;
+  margin-left: -13vw;
+  height: 40vh;
+  border-radius: 24px;
+  border: 3px dashed #0080dc;
+  background: rgba(0, 128, 220, 0.08);
+}
+.maxsize {
+  margin-top: 35vh;
+  text-align: center;
+  color: #000;
+  text-align: center;
+  font-size: 1rem;
+  font-family: Poppins;
+}

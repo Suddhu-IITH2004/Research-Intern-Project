@@ -4,9 +4,8 @@ import "../styles/formpage1.css";
 import { Link } from "react-router-dom";
 
 export default function formpage1() {
-
-    const [date,setDate]=useState();
-    console.log("Date",date);
+  const [date, setDate] = useState();
+  console.log("Date", date);
   return (
     <>
       <Stepwise />
@@ -49,7 +48,7 @@ export default function formpage1() {
         </div>
         <div className="flex">
           <div className="dropdown" id="dropdown">
-          <label className="label">
+            <label className="label">
               <span className="label-text">Gender</span>
             </label>
             <label tabIndex={0} className="btn m-1" id="gender">
@@ -72,15 +71,19 @@ export default function formpage1() {
                 <a>Female</a>
               </li>
             </ul>
-          </div>  
+          </div>
           <div id="dropdown">
-          <label className="label">
+            <label className="label">
               <span className="label-text">Date of Birth</span>
             </label>
-          <input type="date" onChange={e=>setDate(e.target.values)}  className="date"/>
+            <input
+              type="date"
+              onChange={(e) => setDate(e.target.values)}
+              className="date"
+            />
           </div>
           <div className="dropdown" id="dropdown">
-          <label className="label">
+            <label className="label">
               <span className="label-text">Martial Status</span>
             </label>
             <label tabIndex={0} className="btn m-1" id="status">
@@ -106,7 +109,7 @@ export default function formpage1() {
           </div>
         </div>
         <div className="flex">
-            <div className="block" id="email1">
+          <div className="block" id="email1">
             <label className="label">
               <span className="label-text">Email Address</span>
             </label>
@@ -116,8 +119,8 @@ export default function formpage1() {
               className="input input-bordered "
               id="emailsize"
             />
-            </div>
-            <div className="block" id="phno">
+          </div>
+          <div className="block" id="phno">
             <label className="label">
               <span className="label-text">Phone Number</span>
             </label>
@@ -127,18 +130,18 @@ export default function formpage1() {
               className="input input-bordered "
               id="phsize"
             />
-            </div>
+          </div>
         </div>
         <div className="block">
-        <label className="label">
-              <span className="label-text">Postal Address</span>
-            </label>
-            <input
-              type="text"
-              placeholder="Type here"
-              className="input input-bordered "
-              id="pasize"
-            />
+          <label className="label">
+            <span className="label-text">Postal Address</span>
+          </label>
+          <input
+            type="text"
+            placeholder="Type here"
+            className="input input-bordered "
+            id="pasize"
+          />
         </div>
         <div className="flex">
           <div className="block" id="input1">
@@ -177,18 +180,22 @@ export default function formpage1() {
         </div>
       </div>
       <div className="flex" id="last">
+      <Link to="/"> 
       <button className="btn" id="cancel">
-       <Link to="/"> Cancel Application</Link>
-      </button>
-      <button className="btn btn-info" id="step-2">
-      <Link to="/step2"> Step-2</Link>
-        <img
-          width="35"
-          height="35"
-          src="https://img.icons8.com/ios-filled/50/right--v1.png"
-          alt="right--v1"
-        />
-      </button>
+        Cancel Application
+        </button></Link>
+        <Link to="/step2">
+          {" "}
+          <button className="btn btn-info" id="step-2">
+            Step-2
+            <img
+              width="35"
+              height="35"
+              src="https://img.icons8.com/ios-filled/50/right--v1.png"
+              alt="right--v1"
+            />
+          </button>
+        </Link>
       </div>
     </>
   );

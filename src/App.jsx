@@ -37,9 +37,9 @@ export default function App() {
 
 
 function Faculty() {
-  return <div>Faculty Page</div>;
+  return (<div>Faculty Page</div>)
 }
 
 function Contact() {
-  return <div>Contact Page</div>;
+  return (<div>Contact Page</div>)
 }

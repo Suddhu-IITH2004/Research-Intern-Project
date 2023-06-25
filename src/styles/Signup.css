@@ -35,13 +35,15 @@ margin:0 4vw;
     width: 58vw;
 }
 #input3{
-    margin: 0 8vw;
+    margin: 0 0vw;
+    margin-right: 2vw;
 }
 #inputsize3{
-    width: 50vw;
+    width: 28vw;
 }
 .dropdown{
-    margin: 0 2vw;
+    margin: 0 ;
+    margin-right: 2vw;
 }
 #applybutton{
     width: 20vw;
@@ -50,4 +52,10 @@ margin:0 4vw;
     margin-left: 65vw;
     border-radius: 20vw;
     color: #FBFBFD;
+}
+#pass1{
+  width: 58vw;
+}
+#drop1{
+  width: 17.5vw;
 }

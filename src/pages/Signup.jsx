@@ -51,7 +51,7 @@ export default function Signin() {
             className="input input-bordered w-full"
           />
         </div>
-        <div className="flex">
+        <div className="flex" id="pass1">
           <div className="block" id="input3">
             <label className="label">
               <span className="label-text">
@@ -62,7 +62,7 @@ export default function Signin() {
               id="inputsize3"
               type="password"
               placeholder="Type here"
-              className="input input-bordered w-full max-w-xs"
+              className="input input-bordered w-full "
             />
           </div>
           <div className="block" id="input3">
@@ -75,7 +75,7 @@ export default function Signin() {
               id="inputsize3"
               type="text"
               placeholder="Type here"
-              className="input input-bordered w-full max-w-xs"
+              className="input input-bordered w-full "
             />
           </div>
         </div>
@@ -89,10 +89,10 @@ export default function Signin() {
             className="input input-bordered w-full"
           />
         </div>
-        <div className="flex">
+        <div className="flex" id="pass1">
           <div className="dropdown">
-            <label tabIndex={0} className="btn m-1">
-              Select your Branch{" "}
+            <label tabIndex={0} className="btn m-1" id="drop1">
+            Branch{" "}
               <img
                 width="20"
                 height="20"
@@ -113,8 +113,8 @@ export default function Signin() {
             </ul>
           </div>
           <div className="dropdown">
-            <label tabIndex={0} className="btn m-1">
-              Select your specialisation{" "}
+            <label tabIndex={0} className="btn m-1" id="drop1">
+              your specialisation{" "}
               <img
                 width="20"
                 height="20"
@@ -135,8 +135,8 @@ export default function Signin() {
             </ul>
           </div>
           <div className="dropdown">
-            <label tabIndex={0} className="btn m-1">
-              Select your Research Interest{" "}
+            <label tabIndex={0} className="btn m-1" id="drop1">
+              Research Interest{" "}
               <img
                 width="20"
                 height="20"
